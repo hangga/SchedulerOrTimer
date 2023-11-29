@@ -61,6 +61,7 @@ internal class CoroutineTest {
         //assertEquals("withScheduledExecutorService() at", output[4].substring(0, 30))
     }
 
+    @InternalCoroutinesApi
     @Test
     fun `test withCoroutinesScheduling`() {
         System.setOut(PrintStream(outputStreamCaptor))
