@@ -3,8 +3,12 @@ import kotlinx.coroutines.scheduling.ExperimentalCoroutineDispatcher
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
+/**
+ * GPT : https://chat.openai.com/share/31425629-841f-4c8b-9ddd-a7427176c750
+ */
+
 @InternalCoroutinesApi
-fun main(args: Array<String>) {
+/*fun main(args: Array<String>) {
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     //println("Program arguments: ${args.joinToString()}")
@@ -12,7 +16,7 @@ fun main(args: Array<String>) {
     withRepeat()
     withScheduledExecutorService()
     withCoroutinesScheduling()
-}
+}*/
 
 fun withDelay() = runBlocking {
     launch {
