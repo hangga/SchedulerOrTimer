@@ -1,5 +1,3 @@
-import java.util.*
-
 /**
  * Sederhana -> https://chat.openai.com/share/84c1030d-1619-49b2-8b64-e3e6203b5874
  * Agak kompleks -> https://chat.openai.com/share/d8545179-cc2e-4561-9fff-3cfa9cfccd43
